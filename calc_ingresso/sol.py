@@ -5,7 +5,7 @@
 #Entradas
 num_adultos = int(input())
 num_criancas = int(input())
-valor_ingresso = int(input())
+valor_ingresso = float(input())
 
 #Operações
 total = (num_adultos * valor_ingresso) + (num_criancas * (valor_ingresso / 2 ))
